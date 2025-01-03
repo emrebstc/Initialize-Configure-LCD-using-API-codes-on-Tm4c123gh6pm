@@ -10,16 +10,16 @@ int main(void) {
 
     clockayar();
     LCD_ayar();
-
+                            // For other functions, check out lcd.c
         while (1) {
 
-            LCD_yaz("ileri-mikro",0);
+            LCD_yaz("ileri-mikro",0); // "0" For print on first line
 
             SysCtlDelay(30000000);
 
             LCD_temizle();
 
-            LCD_asagiyaz("g220100351",1); //hem ilk basta hangi satirdan baslayacagi seciliyor hemde bir sonraki kelime diger satirdan baslatiliyor
+            LCD_asagiyaz("15152211",1); // "1" For print on first line
 
             SysCtlDelay(30000000);
 
