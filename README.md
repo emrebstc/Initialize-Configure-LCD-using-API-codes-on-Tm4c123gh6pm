@@ -1,7 +1,7 @@
 
 
 Tm4c123gh6pm
-Initialize-Configure-16x2LCD-using-nonAPI-codes
+Initialize-Configure-16x2LCD-using-API-codes
 
 Required Components:
 1)16x2 LCD Display
